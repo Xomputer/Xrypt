@@ -10,7 +10,7 @@ Inherits Application
 	#tag EndNote
 
 
-	#tag Constant, Name = AppRunCount, Type = Double, Dynamic = False, Default = \"12", Scope = Public
+	#tag Constant, Name = AppRunCount, Type = Double, Dynamic = False, Default = \"13", Scope = Public
 	#tag EndConstant
 
 	#tag Constant, Name = kEditClear, Type = String, Dynamic = False, Default = \"&Delete", Scope = Public

@@ -858,20 +858,6 @@ Protected Module Xomputer
 	#tag EndMethod
 
 	#tag Method, Flags = &h1
-		Protected Sub GetArray2D(Name as string, Length as integer, Info() as string)
-		  dim target as string
-		  
-		  
-		  // code for combining ArName and PrimeIndex to refer to ArName_PrimeIndex()
-		  
-		  
-		  target = ArName_PrimeIndex(SecondIndex)
-		  
-		  return target
-		End Sub
-	#tag EndMethod
-
-	#tag Method, Flags = &h1
 		Protected Function GetCodes(theChar as string) As string()
 		  // 'make sure the dictionary is initialized - could be placed in an "init" method
 		  // if CodeDict = nil then CodeDict = new dictionary
